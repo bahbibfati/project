@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Fleet Management System</title>
+</head>
+<body>
+    <div class="crud"></div>
+        <div class="head">
+            <h2>Flett Management System</h2>
+            <P>Managing our fleet</P>
+        </div>
+        <div class="inputs">
+            <input placeholder="title"title type="text" id="title">
+            <div class="vehicle">
+                <imput type="number" id="vehicle"placeholder="vehicle">
+                    <small id="total">32422</small>
+            </div>
+            <input placeholder="count"title type="number" id="count">
+            <input placeholder="category"title type="text" id="count">
+            <button id="submit">create</button>
+        </div>
+
+
+
+
+        <div class="outputs">
+            <div class="searchBlock">
+                <input type="text" id="search" placeholder="search">
+                <div class="bntSearch">
+                    <button id="searchTitle">search by title </button>
+                    <button id="searchCategory">search by category </button>
+                </div>
+            </div>
+
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>vehicle</th>
+                    <th>category</th>
+                    <th>fuel level</th>
+                    <th>temperature</th>
+                    <th>pressure</th>
+                    <th>speed</th>
+                    <th>delete</th>
+                </tr>
+                <tbody>
+                    <TR>
+                        <td>1</td>
+                        <td>clio</td>
+                        <td>car</td>
+                        <td>18</td>
+                        <td>27</td>
+                        <td>90</td>
+                        <td>120</td>
+                        <td><button id="delete">delete</button></td>
+                    </TR>
+                </tbody>
+            </table>
+
+        </div>
+    
+</body>
+</html>
